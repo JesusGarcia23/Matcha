@@ -4,6 +4,7 @@ body {
 
 .chosen{
     position: fixed;
+    visibility: hidden;
 }
 
 .col{
