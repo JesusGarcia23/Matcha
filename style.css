@@ -1,8 +1,6 @@
 body {
-    color: red;
+
 }
-
-
 
 .chosen{
     position: fixed;
@@ -137,3 +135,121 @@ body {
     .purchaseNav{
         margin-left: 60px;
     }
+
+    /* sections */
+
+.section {
+
+    border: 1px solid black;
+  
+    /* background-color: violet; */
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .content-1 {
+  
+    display: flex;
+    justify-content: space-evenly;
+  
+  
+    width: 60%;
+    height: 80%;
+  }
+  
+  .content-1-text {
+  
+    text-align: center;
+  
+    margin-top: 10%;
+  
+    width: 50%;
+  
+  }
+  
+  .footer {
+  
+    background-image: url('../image2.png');
+    opacity: 0.5;
+    background-size: cover;
+    background-position:  right; 
+  
+  }
+  
+  .footer-content {
+  
+    background-color: white;
+  
+    text-align: center;
+    width: 60%;
+    height: 50%;
+  
+    padding: 15px;
+  
+    opacity: .7;
+  
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  /***************************************************
+                        Position Nav Dots
+  ****************************************************/
+  
+  .dots-container {
+    /* background-color: red; */
+  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70%;
+  }
+  
+  /***************************************************
+                        HOVER EFFECTS
+    ****************************************************/
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .hvr-icon-spin {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-icon-spin .hvr-icon {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+  .hvr-icon-spin:hover .hvr-icon,
+  .hvr-icon-spin:focus .hvr-icon,
+  .hvr-icon-spin:active .hvr-icon {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
