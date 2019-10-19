@@ -203,11 +203,9 @@ body {
   ****************************************************/
   
   .dots-container {
-    /* background-color: red; */
-  
     position: -webkit-sticky;
-    position: sticky;
-    top: 70%;
+    position: absolute;
+    top: 80vh;
   }
   
   /***************************************************
