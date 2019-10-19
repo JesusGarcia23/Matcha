@@ -36,7 +36,6 @@ body {
 }
 
 
-
 .cssanimation, .cssanimation span {
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -54,7 +53,7 @@ body {
 }
 
 .benefitTitle{
-    background-color: salmon;
+    background-color: #D0E2B0;;
     width: 40vw;
     height: 100vh;
     float: left;
@@ -79,7 +78,7 @@ body {
   }
 
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #D0E2B0;
     width: 100px;
     margin: 50px;
     text-align: center;
@@ -89,12 +88,13 @@ body {
 
   .container {
       display: flex;
-      background-color: green;
       height: 100vh;
       width: 60vw;
+      background-color: #D0E2B0;
   }
 
   .flex-grid-thirds {
+      
     display: flex;
     justify-content: space-between;
   }
@@ -105,7 +105,7 @@ body {
   .myBox{
       height: 300px;
       width: 200px;
-      background-color: white;
+      background-color: #D0E2B0;
       margin: 50px;
       float: left;
   }
@@ -113,6 +113,7 @@ body {
   .boxContainer {
     height: 400px;
     width: 100vw;
+    background-color: #D0E2B0;
   }
 
   .iconB {
@@ -156,7 +157,6 @@ body {
   
     display: flex;
     justify-content: space-evenly;
-  
   
     width: 60%;
     height: 80%;
