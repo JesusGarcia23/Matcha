@@ -1,0 +1,139 @@
+body {
+    color: red;
+}
+
+
+
+.chosen{
+    position: fixed;
+}
+
+.col{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+
+.myDiv{
+    background-color: red;
+    height: 300px;
+    width:  300px;
+    position: fixed;
+    top: 50%;
+    left: 65%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+}
+
+
+.myDiv1{
+    background-color: red;
+    height: 300px;
+    width:  300px;
+    position: fixed;
+    top: 50%;
+    left: 65%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+}
+
+
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+.benefitTitle{
+    background-color: salmon;
+    width: 40vw;
+    height: 100vh;
+    float: left;
+
+}
+.benefitTitle h1{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.benefitTitle h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: DodgerBlue;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .container {
+      display: flex;
+      background-color: green;
+      height: 100vh;
+      width: 60vw;
+  }
+
+  .flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 32%;
+  }
+
+  .myBox{
+      height: 300px;
+      width: 200px;
+      background-color: white;
+      margin: 50px;
+      float: left;
+  }
+
+  .boxContainer {
+    height: 400px;
+    width: 100vw;
+  }
+
+  .iconB {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      margin: 0px auto;
+  }
+
+  .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+      font-size: 30px;
+  }
+
+  .navlist{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60vw;
+    }
+
+    .purchaseNav{
+        margin-left: 60px;
+    }
